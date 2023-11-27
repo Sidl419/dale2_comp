@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dale"
+version = "0.1.0"
+description = ""
+authors = ["Leonid Sidorov <leon.sidorov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dalle2-pytorch = "1.1.0"
+pydantic = "1.10.6"
+dalle2-laion = {git = "https://github.com/Sidl419/dalle2-laion"}
+ipykernel = "^6.27.0"
+opencv-python = "^4.8.1.78"
+matplotlib = "^3.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
